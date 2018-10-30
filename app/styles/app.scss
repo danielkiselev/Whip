@@ -1,0 +1,31 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "global.scss";
+@import "navbar.scss";
+@import "masthead.scss";
+@import "portfolio.scss";
+@import "contact.scss";
+@import "footer.scss";
+@import "bootstrap-overrides.scss";
+@import "_uber.scss";
+@import "_lyft.scss";
+
+
+body {
+  background: white !important;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+#map {
+  width: 100% !important;
+  height: 30rem !important;
+  margin: auto;
+}
+
+#studentChart {
+  width: 50rem !important;
+  height: 25rem !important;
+  margin: auto !important;
+}
